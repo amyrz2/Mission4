@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!--A webpage title-->
+    <title>IS 413 is the best</title>
+    <!--An icon for the website-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+
+
+    <!--Style the site using Bootstrap.-->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <!--Header that lists your preferred name-->
+    <header>
+        <h1><i class="fa fa-cloud"></i> Amy Zhang <i class="fa fa-cloud"></i></h1>
+        <h4>Welcome to my page</h4>
+    </header>
+
+    <!--A picture of yourself doing something you enjoy-->
+    <img id="picGanderson" src="img/fam.jpg" class="center" />
+    <h6>I enjoy spending time with my family and exploring the world</h6>
+
+    <!--A paragraph on what you hope to get out of this IS 413 class-->
+    <br />
+
+    <p>
+        I am excited to learn more about C# and use it to build awesome web applications!
+        I hope to build unity with my teammates as we work together on projects and accomplish
+        what may seem impossible. I am excited to push myself and go beyong the scope of the class
+        if possible in order to prepare myself for industry. I hope to continue to understand OOP
+        and get more comfortable to MVC
+    </p>
+
+
+    <b><p>The Top #3 jobs I'm interested in pursuing</p></b>
+    <ol>
+        <li>Data Analyst</li>
+        <li>Software Developer</li>
+        <li>Consultant</li>
+    </ol>
+
+    <!--A "Grade Calculator" form that takes as input a percentage scored for each grade
+    category listed in the syllabus-->
+    <div>
+        <h3>IS 413 Grade Calculator</h3>
+        <p>Enter your percentage scored for each grade category</p>
+
+        <form>
+            <label>Assignments: </label>
+            <input id="assignments" /><br />
+            <label>Group Projects: </label>
+            <input id="gp" /><br />
+            <label>Quizzes: </label>
+            <input id="quizzes" /><br />
+            <label>Midterm Exam: </label>
+            <input id="midterms" /><br />
+            <label>Final Exam: </label>
+            <input id="final" /><br />
+            <label>INTEX: </label>
+            <input id="intex" /><br />
+
+            <br />
+            <p id="message">Your grade is: </p>
+            <br />
+            <input id="btnSend" type="button" value="Calculate" />
+        </form>
+
+
+    </div>
+
+    <br /><br /><br /><br />
+
+    <!--Style the site using Bootstrap.-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/grade.js"></script>
+
+</body>
+</html>

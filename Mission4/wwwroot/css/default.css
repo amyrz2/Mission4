@@ -1,0 +1,59 @@
+﻿/*Include at least one change to the styling using your own CSS file.*/
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-color: #ADD8E6;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+label {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    width: 150px;
+    display: inline-block
+}
+
+textarea {
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+h4, h6 {
+    color: navy;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p, ol, h3{
+    color: navy;
+}
